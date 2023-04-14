@@ -1,2 +1,2 @@
 #!/bin/bash
-choman -hR vincent:staff .
+chown -h Vincent:staff _hello
