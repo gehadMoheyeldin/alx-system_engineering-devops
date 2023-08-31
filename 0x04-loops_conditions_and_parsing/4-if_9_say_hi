@@ -1,12 +1,26 @@
-#!/usr/bin/env basih
-# This script is displaying "Best School" 10 times
+#!/usr/bin/env bash
 
-i="0"
-while [ $i -lt 10 ]
+# This script is displaying "Best School" 10 times but prints Hi at 9
+
+i=0
+
+while ((i < 10))
+
 do
-echo "Best School"
-if [ $i -eq 8 ]
-then echo "Hi"
-fi
-i=$((i+1))
+
+        echo "Best School"
+
+        ((i++))
+
+        if [ $i -eq 9 ]
+
+        then
+
+                echo "Hi"
+
+        fi
+
 done
+
+
+
