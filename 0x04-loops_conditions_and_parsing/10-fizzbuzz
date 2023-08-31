@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
-# displays Best School 10 times.
+#displays Best School 10 times.
 
 COUNTER=1
+
 while [ $COUNTER -lt 101 ]
 do
 if [ $((COUNTER%15)) = 0 ]
