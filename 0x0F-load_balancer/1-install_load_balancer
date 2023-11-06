@@ -11,6 +11,6 @@ frontend web-frontend
         default_backend web-backend
 backend web-backend
         balance roundrobin
-        server 1419-web-01 100.26.254.249:80 check
-        server 1419-web-02 54.90.46.202:80 check" >> /etc/haproxy/haproxy.cfg
+        server 411419-web-01 100.26.254.249:80 check
+        server 411419-web-02 54.90.46.202:80 check" >> /etc/haproxy/haproxy.cfg
 sudo service haproxy restart
